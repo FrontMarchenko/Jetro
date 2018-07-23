@@ -31,24 +31,58 @@
 		&.is-active,&:hover
 			color: #e8663c
 
+.blog
+	display: block
+	position: relative
+	margin-bottom: 24px
+	&:before,
+	&:after
+		position: absolute
+		height: 60px
+		background: #f2ae9c
+		content: ""
+		width: 1000px
+		top: 0
+	&:before
+		right: 100%
+		margin-right: 10px
+	&:after
+		left: 100%;
+		margin-left: 10px
+	
+	&__heading
+		font-size: 24px
+		line-height: 1.3
+		color: #fff;
+		padding: 15px 0 15px 18px
+		text-transform: uppercase
+		background: #e8603c
+		+bebas
+
 .section-top
 	max-width: 670px
 
 .slider
-	position: relative
-	&__slide
-		height: 0
-		padding-bottom: 44.7%
-	&__next,&__prev
-		background: red
+	position: relative 
+	&__next,
+	&__prev
 		position: absolute
 		top: 50%
-		left: 20px
-		width: 40px
-		height: 40px
+		left: 20px  
+		cursor: pointer
+		z-index: 50 
+		font-size: 54px 
+		margin-top: -27px 
 	&__next
 		left: auto
-		right: 20px
+		right: 20px  
+		transform: rotate(-180deg)
+.slide
+	position: relative
+	height: 0
+	padding-bottom: 44% 
+
+
 .inner
 	max-width: 650px
 	width: 100%
@@ -70,6 +104,7 @@
 		text-transform: uppercase
 		line-height: 20px
 		margin-bottom: 5px
+		+bebas
 	&__title
 		+bebas
 		font-size: 18px
