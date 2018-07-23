@@ -32,25 +32,9 @@
 			color: #e8663c
 
 .blog
-	display: block
-	position: relative
-	margin-bottom: 24px
-	&:before,
-	&:after
-		position: absolute
-		height: 60px
-		background: #f2ae9c
-		content: ""
-		width: 1000px
-		top: 0
-	&:before
-		right: 100%
-		margin-right: 10px
-	&:after
-		left: 100%;
-		margin-left: 10px
-	
+	margin-bottom: 24px	
 	&__heading
+		position: relative
 		font-size: 24px
 		line-height: 1.3
 		color: #fff;
@@ -58,6 +42,20 @@
 		text-transform: uppercase
 		background: #e8603c
 		+bebas
+		&:before,
+		&:after
+			position: absolute
+			height: 61px 
+			background: #f2ae9c
+			content: "" 
+			width: 1000px
+			top: 0 
+		&:before
+			right: 100%
+			margin-right: 10px  
+		&:after
+			left: 100%
+			margin-left: 10px
 
 .section-top
 	max-width: 670px
