@@ -1,0 +1,69 @@
+--- title: Layman --- {% extends "layouts/_layout.html" %} {% block content %}
+
+
+<!-- header -->
+<header class="header">
+  <div class="container">
+    <div class="header__wrap">
+      <div class="header__logo">
+        <a href="#" class="logo">
+        <div class="logo__Jet">Jet</div>
+				<div class="logo__Ro">Ro</div>
+			</a>
+      </div>
+      <div class="header__nav">
+        <nav class="navigation">
+          <a href="#">home</a>
+          <a href="#">about us</a>
+          <a href="#">blog</a>
+          <a href="#">portfolio</a>
+          <a href="#">contact us</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+<!-- blog -->
+<div class="blog">
+  <div class="container">
+    <h1 class="blog__heading">
+      blog
+    </h1>
+  </div>
+</div>
+<!-- end blog -->
+<!-- slider -->
+<main class="main">
+  <div class="container">
+    <div class="slider section-top">
+				<div class="slider__next">{{mixins.icon('arrow')}}</div>
+				<div class="slider__prev">{{mixins.icon('arrow')}}</div>
+      <div class="slider__slides" js-main>
+        <div class="slider__slide slide" style="background: url(../img/slide.png);">
+          
+        </div>
+        <div class="slider__slide slide" style="background: url(../img/slide.png);">
+          
+        </div>
+        <div class="slider__slide slide" style="background: url(../img/slide.png);">
+          
+        </div>
+      </div>
+      <div class="inner">
+        <div class="inner__info">
+          <a href="#" class="inner__link">
+            <h3 class="inner__heading">date</h3>
+            <h4 class="inner__description">April 15, 2012</h4>
+          </a>
+        </div>
+        <div class="inner__promo"></div>
+      </div>
+    </div>
+  </div>
+</main>
+{# variable example #}
+<h1>{{title}}</h1>
+
+
+{% endblock %}
