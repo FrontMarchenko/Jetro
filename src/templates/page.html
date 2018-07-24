@@ -34,55 +34,63 @@
 </div>
 <!-- end blog -->
 <!-- slider -->
-
+<main class="main">
   <div class="container main-blog">
-    <main class="main">
-    <div class="main__wrap">
-    <div class="slider section">
-        <div class="slider__next">{{mixins.icon('arrow')}}</div>
-        <div class="slider__prev">{{mixins.icon('arrow')}}</div>
-      <div class="slider__slides js-main">
-        <div class="slider__slide" style="background: url(img/slide.png);">
-        </div>
-        <div class="slider__slide" style="background: url(img/slide.png);">
-        </div>
-        <div class="slider__slide" style="background: url(img/slide.png);">
-        </div>
-      </div>
-    </div>
-  
-    <div class="inner">
-      <div class="inner__wrap">
-        <div class="inner__info">
-          <a href="#" class="inner__link">
-            <h3 class="inner__heading">date</h3>
-            <h4 class="inner__description">April 15, 2012</h4>
-          </a>
-        </div>
-        <div class="inner__info">
-          <a href="#" class="inner__link">
-            <h3 class="inner__heading">tags</h3>
-            <h4 class="inner__description">Website | Design</h4>
-          </a>
-        </div>
-        <div class="inner__info">
-          <a href="#" class="inner__link">
-            <h3 class="inner__heading">comments</h3>
-            <h4 class="inner__description">4</h4>
-          </a>
-        </div>
-      </div>
-      <div class="inner__promo">
-        <h3 class="inner__title">Top WordPress Themes of 2012</h3>
-        <p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
-        <p> Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis <span class="inner__dot">...</span></p>
-      </div>
-    </div>
- 
-    </div>
-    <div class="main__wrapp-middle">
+    <div class="main__wrap-all">
+      <div class="main__wrap">
         <div class="slider section">
-           
+          <div class="slider__next">{{mixins.icon('arrow')}}</div>
+          <div class="slider__prev">{{mixins.icon('arrow')}}</div>
+          <div class="slider__slides js-main">
+            <div class="slider__slide" style="background: url(img/slide.png);">
+            </div>
+            <div class="slider__slide" style="background: url(img/slide.png);">
+            </div>
+            <div class="slider__slide" style="background: url(img/slide.png);">
+            </div>
+          </div>
+        </div>
+
+        <div class="inner">
+          <div class="inner__wrap">
+            <div class="inner__info">
+              <a href="#" class="inner__link">
+                <h3 class="inner__heading">date</h3>
+                <h4 class="inner__description">
+                  <span class="inner__date">April 15, 2012</span>
+                </h4>
+              </a>
+            </div>
+            <div class="inner__info">
+              <a href="#" class="inner__link">
+                <h3 class="inner__heading">tags</h3>
+                <h4 class="inner__description">
+                  <span class="inner__tags">Website | Design</span>
+                </h4>
+              </a>
+            </div>
+            <div class="inner__info">
+              <a href="#" class="inner__link">
+                <h3 class="inner__heading">comments</h3>
+                <h4 class="inner__description">
+                  <span class="inner__quantity">4</span>
+                </h4>
+              </a>
+            </div>
+          </div>
+          <div class="inner__promo">
+            <h3 class="inner__title">Top WordPress Themes of 2012</h3>
+            <p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
+            <p> Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis
+              <span class="inner__dot">...</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="main__wrapp-middle">
+        <div class="slider section">
+
           <div class="slider__slides js-middle">
             <div class="slider__slide" style="background: url(img/slide-middle.png);">
             </div>
@@ -92,99 +100,187 @@
             </div>
           </div>
         </div>
-      
+
         <div class="inner">
           <div class="inner__wrap">
             <div class="inner__info">
               <a href="#" class="inner__link">
                 <h3 class="inner__heading">date</h3>
-                <h4 class="inner__description">April 15, 2012</h4>
+                <h4 class="inner__description">
+                  <span class="inner__date">April 15, 2012</span>
+                </h4>
               </a>
             </div>
             <div class="inner__info">
               <a href="#" class="inner__link">
                 <h3 class="inner__heading">tags</h3>
-                <h4 class="inner__description">Website | Design</h4>
+                <h4 class="inner__description">
+                  <span class="inner__tags">Website | Design</span>
+                </h4>
               </a>
             </div>
             <div class="inner__info">
               <a href="#" class="inner__link">
                 <h3 class="inner__heading">comments</h3>
-                <h4 class="inner__description">4</h4>
+                <h4 class="inner__description">
+                  <span class="inner__quantity">4</span>
+                </h4>
               </a>
             </div>
           </div>
           <div class="inner__promo">
-            <h3 class="inner__title">Jesus  Typography  Wallpaper  Giveaway!</h3>
+            <h3 class="inner__title">Jesus Typography Wallpaper Giveaway!</h3>
             <p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
-            <p> Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis <span class="inner__dot">...</span></p>
+            <p> Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis
+              <span class="inner__dot">...</span>
+            </p>
           </div>
         </div>
+      </div>
+      <div class="main__wrapp-bottom">
+        <div class="slider section">
+
+          <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/47706295?color=e8603c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+          <p>
+            <a href="https://vimeo.com/47706295"></a>
+            <a href="https://vimeo.com/roberthillailv"></a>
+            <a href="https://vimeo.com"></a>.</p>
         </div>
-        <div class="main__wrapp-bottom">
-            <div class="slider section">
-               
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/47706295?color=e8603c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                <p><a href="https://vimeo.com/47706295"></a> <a href="https://vimeo.com/roberthillailv"></a> <a href="https://vimeo.com"></a>.</p>
+
+        <div class="inner">
+          <div class="inner__wrap">
+            <div class="inner__info">
+              <a href="#" class="inner__link">
+                <h3 class="inner__heading">date</h3>
+                <h4 class="inner__description">
+                  <span class="inner__date">April 15, 2012</span>
+                </h4>
+              </a>
             </div>
-          
-            <div class="inner">
-              <div class="inner__wrap">
-                <div class="inner__info">
-                  <a href="#" class="inner__link">
-                    <h3 class="inner__heading">date</h3>
-                    <h4 class="inner__description">April 15, 2012</h4>
-                  </a>
-                </div>
-                <div class="inner__info">
-                  <a href="#" class="inner__link">
-                    <h3 class="inner__heading">tags</h3>
-                    <h4 class="inner__description">Website | Design</h4>
-                  </a>
-                </div>
-                <div class="inner__info">
-                  <a href="#" class="inner__link">
-                    <h3 class="inner__heading">comments</h3>
-                    <h4 class="inner__description">4</h4>
-                  </a>
-                </div>
-              </div>
-              <div class="inner__promo">
-                <h3 class="inner__title">Jesus  Typography  Wallpaper  Giveaway!</h3>
-                <p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
-                <p> Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis <span class="inner__dot">...</span></p>
-              </div>
+            <div class="inner__info">
+              <a href="#" class="inner__link">
+                <h3 class="inner__heading">tags</h3>
+                <h4 class="inner__description">
+                  <span class="inner__tags">Website | Design</span>
+                </h4>
+              </a>
             </div>
+            <div class="inner__info">
+              <a href="#" class="inner__link">
+                <h3 class="inner__heading">comments</h3>
+                <h4 class="inner__description">
+                  <span class="inner__quantity">4</span>
+                </h4>
+              </a>
             </div>
-        
-          </main>
-   <aside class="aside">
-     <div class="aside__wrap">
-       <div class="about">
-         <h3 class="h3">
-           about jetro
-         </h3>
-         <p class="about__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elemen tum imperdiet.  sagittis ipsum. 
-         </p>
-       </div>
-       <div class="categories">
-         <h3 class="h3">
-           categories
-         </h3>
-         <ul class="categories__list">
-           <li><a href="#">Video (3)</a></li>
-           <li><a href="#">Sports (5)</a></li>
-           <li><a href="#">Media (2)</a></li>
-           <li><a href="#">Entertainment(7)</a></li>
-           <li><a href="#">Life (4)</a></li>
-           <li><a href="#">Super Cool Stuff   (8)</a></li>
-         </ul>
-       </div>
-     </div>
-   </aside>
-  </main> 
+          </div>
+          <div class="inner__promo">
+            <h3 class="inner__title">Big Buck Bunny Trailer</h3>
+            <p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
+            <p> Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis
+              <span class="inner__dot">...</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main__blockquote">
+        <blockquote class="blockquote">
+          <div class="blockquote__wrapper">
+            <p>
+              Write anything you want here in this quotable area. Something unique you want people to learn about your website or some cool random fact. Its totally up to you.
+            </p>
+          </div>
+
+        </blockquote>
+      </div>
+
+    </div>
+    <aside class="aside">
+      <div class="aside__wrap">
+        <div class="about">
+          <h3 class="h3">
+            about jetro
+          </h3>
+          <p class="about__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elemen tum imperdiet. sagittis ipsum.
+          </p>
+        </div>
+        <div class="categories">
+          <h3 class="h3">
+            categories
+          </h3>
+          <ul class="categories__list">
+            <li>
+              <a href="#">Video
+                <span class="categories__quantity">(3)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">Sports
+                <span class="categories__quantity">(5)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">Media
+                <span class="categories__quantity">(2)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">Entertainment
+                <span class="categories__quantity">(7)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">Life
+                <span class="categories__quantity">(4)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">Super Cool Stuff
+                <span class="categories__quantity">(8)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="photo-gallery">
+          <h3 class="h3">
+            photo gallery
+          </h3>
+          <figure>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+            <a href="">
+              <img src="../img/pg-img.png" alt="" class="img-fluid">
+            </a>
+          </figure>
+        </div>
+      </div>
+    </aside>
   </div>
+</main>
+
 
 
 
