@@ -61,7 +61,7 @@
 .main-blog
 	display: flex
 .main
-	&__wrap,&__wrapp-middle
+	&__wrap,&__wrapp-middle,&__wrapp-bottom
 		position: relative
 		&:before
 			position: absolute
@@ -78,18 +78,14 @@
 	&__wrapp-middle
 		&:before
 			background: url("../icons/middle-icon.png") no-repeat;
-			
-
-
+	&__wrapp-bottom
+		&:before
+			background: url("../icons/bottom-icon.png") no-repeat;
 
 .section
 	max-width: 670px
 	margin-bottom: 20px
-	
-
-.section-middle
-	
-
+		
 .slider
 	position: relative 
 	&__next,
@@ -154,9 +150,35 @@
 		width: 100%
 .inner__promo
 		p 
-			font-family: Helvetica, sans-serif 
 			font-size: 12px
 			line-height: 1.5
 			color: #414141
 			font-style: normal
+aside
+	margin-left: 50px
+	color: #464646
+.about
+		margin-bottom: 35px
+		&__description
+			font-size: 12px
+			line-height: 1.2
+			font-style: normal
+			font-weight: normal
+
+.h3
+	display: flex
+	font-size: 14px
+	line-height: 1
+	text-transform: uppercase
+	color: #e8603c
+	margin-bottom: 23px
+	+bebas
+	&:after
+		content: "" 
+		flex: 1
+		margin-left: 20px  
+		background: url(../img/pattern.png) 0 0 
+.categories
+	&__list
+		font-size: 12px
 		
