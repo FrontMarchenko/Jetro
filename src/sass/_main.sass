@@ -9,28 +9,36 @@
 		text-align: left
 		padding: 22px 0
 		align-items: baseline
+		+r(620)
+			display: block
+			text-align: center
 	&__logo
 		text-transform: uppercase
+		+r(620)
+			margin-bottom: 20px
 	&__nav
 		text-transform: uppercase
 		margin-left: auto
+		top: -6px
 .logo
-	font-size: 36px
-	color: #e8603c
+	font-size: 0
+	color: $is-active
 	+bebas
+	&__Jet,&__Ro
+		font-size: 36px
 	&__Ro
 		color: #f3af9d
 
 .navigation
 	font-size: 16px
 	position: relative
-	top: -6px
+	
 	+bebas
 	a
 		color: #b9b9b9
 		margin-left: 24px
 		&.is-active,&:hover
-			color: #e8663c
+			color: $is-active
 
 .blog
 	overflow: hidden
@@ -42,7 +50,7 @@
 		color: #fff;
 		padding: 15px 0 15px 18px
 		text-transform: uppercase
-		background: #e8603c
+		background: $is-active
 		+bebas
 		&:before,
 		&:after
@@ -62,6 +70,7 @@
 	display: flex
 	+r(960)
 		display: block
+		margin: 0 10px
 .main
 	&__wrap,&__wrapp-middle,&__wrapp-bottom
 		position: relative
@@ -138,7 +147,7 @@
 		white-space: nowrap
 	&__heading
 		font-size: 12px
-		color: #e8603c
+		color: $is-active
 		text-transform: uppercase
 		line-height: 1.6
 		margin-bottom: 5px
@@ -147,7 +156,7 @@
 		+bebas
 		font-size: 18px
 		line-height: 1
-		color: #e8603c
+		color: $is-active
 		text-transform: uppercase
 		margin-bottom: 20px
 		&+p
@@ -181,7 +190,7 @@ aside
 	font-size: 14px
 	line-height: 1
 	text-transform: uppercase
-	color: #e8603c
+	color: $is-active
 	margin-bottom: 23px
 	+bebas
 	&:after
@@ -194,8 +203,10 @@ aside
 	&__list
 		font-size: 12px
 figure
-	+r(468)
+	+r(960)
 		display: flex
+		justify-content: center
+		margin-bottom: 40px
 .blockquote
 	padding-bottom: 64px
 	margin-bottom: 55px
@@ -238,7 +249,7 @@ figure
 			right: 100%
 			font-family: "Georgia"
 			font-size: 72px
-			color: #e8603c
+			color: $is-active
 			transform: rotate(-180deg)
 
 .main__freebies
@@ -268,7 +279,7 @@ figure
 		margin-bottom: 20px
 	&-title
 		font-size: 18px
-		color:#e8603c
+		color $is-active
 		text-transform: uppercase
 		line-height: 1.5
 		+bebas
@@ -280,12 +291,12 @@ figure
 		line-height: 1.5
 		color: #414141
 
-.main__pagination
+.pagination
 	display: flex
 	margin-bottom: 300px
 	+r(960)
-		margin-bottom: 50px
-	&-page
+		display: none
+	&__page
 		font-size: 14px
 		color: #fff
 		background: #f3b29d
@@ -295,5 +306,10 @@ figure
 		margin-right: 4px
 		+bebas
 		&.is-active,&:hover
-			background: #e8603c
+			background: $is-active
 			cursor: pointer
+.none
+	display: none
+	+r(960)
+		display: flex
+		justify-content: center
