@@ -60,6 +60,8 @@
 			margin-left: 10px
 .main-blog
 	display: flex
+	+r(960)
+		display: block
 .main
 	&__wrap,&__wrapp-middle,&__wrapp-bottom
 		position: relative
@@ -110,7 +112,8 @@
 		margin-top: -25px 
 	&__next
 		left: auto
-		right: 20px  
+		right: 20px
+		margin-top: -42px  
 		transform: rotate(-180deg)
 	&__slide
 		position: relative
@@ -162,6 +165,9 @@
 aside
 	margin-left: 50px
 	color: #464646
+	+r(960)
+		margin-left: 0
+		float: left
 .about
 		margin-bottom: 35px
 		&__description
@@ -187,7 +193,9 @@ aside
 	margin-bottom: 35px
 	&__list
 		font-size: 12px
-
+figure
+	+r(468)
+		display: flex
 .blockquote
 	padding-bottom: 64px
 	margin-bottom: 55px
@@ -275,6 +283,8 @@ aside
 .main__pagination
 	display: flex
 	margin-bottom: 300px
+	+r(960)
+		margin-bottom: 50px
 	&-page
 		font-size: 14px
 		color: #fff
