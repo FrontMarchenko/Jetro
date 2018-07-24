@@ -58,10 +58,37 @@
 		&:after
 			left: 100%
 			margin-left: 10px
+.main-blog
+	display: flex
+.main
+	&__wrap,&__wrapp-middle
+		position: relative
+		&:before
+			position: absolute
+			content: ""
+			top: 0
+			height: 75px
+			width: 75px
+			background: url("../icons/top-icon.png") no-repeat;
+			background-size: cover
+			z-index: 100
+			right: 100%
+			margin-right: 10px
 
-.section-top
+	&__wrapp-middle
+		&:before
+			background: url("../icons/middle-icon.png") no-repeat;
+			
+
+
+
+.section
 	max-width: 670px
 	margin-bottom: 20px
+	
+
+.section-middle
+	
 
 .slider
 	position: relative 
@@ -89,6 +116,7 @@
 	max-width: 650px
 	width: 100%
 	display: flex
+	margin-bottom: 70px
 	&__info
 		margin-bottom: 15px
 	&__wrap
@@ -120,7 +148,6 @@
 	&:before
 		position: absolute
 		content: ""
-		margin-top: 40px
 		background: url('../img/pattern.png') 0 0
 		bottom: -40px
 		height: 14px
