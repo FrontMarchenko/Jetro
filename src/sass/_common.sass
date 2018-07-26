@@ -17,7 +17,51 @@ body
     width: initial
     max-width: 100%
 
-$is-active: #E8603C;
+.page__container
+  max-width: 940px
+  width: 100%
+  margin: 0 auto
+  padding: 0 10px
 
+a:hover
+  color: $is-active
+.link_active
+    color: $is-active
 
- 
+.h3-heading_bebas
+    font-size: 12px
+    color: $is-active
+    text-transform: uppercase
+    line-height: 1.6
+    margin-bottom: 5px
+    +bebas
+.span_mod
+    font-size: 12px
+    line-height: 1.6
+    color: #bababa
+    white-space: nowrap
+.heading_color
+    color: $is-active
+    font-size: 18px
+    line-height: 1
+.text_color
+    font-size: 12px
+    line-height: 1.5
+    color: #414141
+.description__text_more
+    margin-bottom: 50px
+.h4-heading-line
+    display: flex
+    font-size: 14px
+    line-height: 1
+    text-transform: uppercase
+    color: $is-active
+    margin-bottom: 23px
+    +bebas
+    &:after
+        content: ''
+        flex: 1
+        margin-left: 20px
+        background: url('../img/pattern.png') 0 0
+.rel
+    

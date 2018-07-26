@@ -1,11 +1,11 @@
 import 'slick-carousel';
 
-$('.js-main').slick({
+$('.js-post').slick({
   nextArrow: '.slider__next',
   prevArrow: '.slider__prev'
 });
 
-$('.js-middle').slick({
+$('.js-post-2').slick({
   nextArrow: false,
   prevArrow: false
 });

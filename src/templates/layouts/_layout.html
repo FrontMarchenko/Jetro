@@ -11,16 +11,18 @@
     <link rel="stylesheet" media="all" href="css/app.css"/>
     {# {% include "../partials/_media-tags.html" %} #}
   </head>
-  <body>
+  <body class="page">
 
     <!-- BEGIN content -->
     <div class="out">
-      {% block content %}{% endblock %}
+      {% block content %}
+  
+      {% endblock %}
     </div>
     <!-- END content -->
 
     <!-- BEGIN scripts -->
-    <script src=js/app.js""></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <!-- END scripts -->
 
   </body>
