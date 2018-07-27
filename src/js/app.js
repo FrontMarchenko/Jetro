@@ -6,6 +6,6 @@ $('.js-post').slick({
 });
 
 $('.js-post-2').slick({
-  nextArrow: false,
-  prevArrow: false
+  nextArrow: 'false',
+  prevArrow: 'false'
 });

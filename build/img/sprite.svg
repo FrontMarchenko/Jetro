@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrow" viewBox="0 0 36 52">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-arrow" viewBox="0 0 36 52">
     <path fill-rule="evenodd" opacity=".902" d="M25.836-.001L.014 26l25.822 26.001 9.631-9.565L19.145 26 35.467 9.564 25.836-.001z"/>
-</symbol><symbol id="icon-doc" viewBox="0 0 75 75">
-    <path fill-rule="evenodd" d="M0 0h75v75H0V0z"/>
-    <image x="23" y="22" width="28" height="33" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAhCAQAAABg4ANsAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfiBxgLMAaKpc9uAAAAWUlEQVQ4y2P8/5+BgeEzAzGAl4GBgRHGYSJKCxbA+P8/sjl4AYpKsm2kilNJCiaq2Uh0MNE/cEY1jmocKhpZGBgYIBlq0Dt1oAIHAYgOJsb/ZGgaGD/SXyMA3vYSOKYqB10AAAAASUVORK5CYII="/>
 </symbol><symbol id="icon-facebook" viewBox="0 0 10 19">
     <title>
         facebook
