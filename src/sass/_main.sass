@@ -27,30 +27,26 @@
   &__link
     margin-left: 24px
 .title
-  overflow: hidden
+  +bebas
+  color: #fff
+  font-size: 24px
+  line-height: 1.3
   margin-bottom: 24px
-  &__heading
-    position: relative
-    +bebas 
-    text-transform: uppercase
-    background: $is-active
-    color: #fff
-    font-size: 24px
-    line-height: 1.3
-    padding: 15px 0px 15px 18px
-    &:before,&:after
-      content: ""
-      position: absolute
-      height: 61px
+  text-transform: uppercase
+  display: flex
+  &:before,&:after
+      flex: 1 0 0
+      content: ''
       background: $is-lighter-active
-      width: 100%
-      top: 0
-    &:before
-      right: 100%
-      margin-right: 10px
-    &:after
-      left: 100%
-      margin-left: 10px
+  &:before
+    
+  &:after
+    
+  &__heading
+    background: $is-active
+    padding: 15px 18px
+    
+      
 .blog-post
   display: flex
   flex-wrap: wrap

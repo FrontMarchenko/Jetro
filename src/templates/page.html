@@ -1,8 +1,6 @@
 --- title: Index page --- {% extends "layouts/_layout.html" %} {% block content %}
 
-<!-- {# variable example #}
-	<h1>{{title}}</h1> -->
-<!-- header -->
+
 
 <div class="page__container">
   <div class="head">
@@ -23,21 +21,21 @@
     </div>
   </div>
 </div>
-<div class="title">
-  <div class="page__container">
-
-    <h1 class="title__heading">
-      Blog
-    </h1>
+<div class="page__title">
+  <div class="title">
+    <div class="page__container">
+      <h1 class="title__heading">
+        Blog
+      </h1>
+    </div>
   </div>
 </div>
 <div class="page__container">
   <div class="blog-post">
     <div class="blog-post__main">
       <div class="post">
-        
         <div class="slider">
-            <div class="icons icons_slide-1"></div>
+          <div class="icons icons_slide-1"></div>
           <div class="slider__next">{{mixins.icon('arrow')}}</div>
           <div class="slider__prev">{{mixins.icon('arrow')}}</div>
           <div class="slider-slides js-post">
@@ -97,7 +95,7 @@
 
       <div class="post">
         <div class="slider">
-            <div class="icons icons_slide-2"></div>
+          <div class="icons icons_slide-2"></div>
           <div class="slider-slides js-post-2">
             <div class="slider-slides__bg" style="background-image: url('img/slide-2.png'); background-size: cover">
             </div>
@@ -134,7 +132,7 @@
             </div>
             <div class="description">
               <h2 class="description__heading heading_color">
-                Top WordPress Themes of 2012
+                Jesus Typography Wallpaper Giveaway!
               </h2>
               <p class="description__text text_color">
                 Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu.
@@ -189,7 +187,7 @@
             </div>
             <div class="description">
               <h2 class="description__heading heading_color">
-                Top WordPress Themes of 2012
+                Big Buck Bunny Trailer
               </h2>
               <p class="description__text text_color">
                 Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu.
@@ -343,32 +341,8 @@
 </div>
 <!-- end header -->
 
-{# partial example #} {% include "partials/_header.html" %}
-
-<!-- {# mixin example #}
-	{{mixins.icon('facebook')}} -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- {# data usage example #}
-		{% import "data/data.html" as tests %}
-		
-		{% for test in tests.list %}
-		<li>{{test.title}}</li>
-		{% endfor %}
-	{# end of example #} -->
 
 {% endblock %}
