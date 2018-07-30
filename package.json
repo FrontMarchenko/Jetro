@@ -68,6 +68,7 @@
     "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.3.5",
     "slick-carousel": "^1.8.1"
   }
 }
