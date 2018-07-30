@@ -4,7 +4,7 @@ $(document).ready(function() {
   $('.fancybox-button').fancybox({
     prevEffect		: 'none',
     nextEffect		: 'none',
-    closeBtn		: 'false',
+    closeBtn		: false,
     helpers		: {
       title	:  'none' ,
       buttons	: {}
