@@ -148,11 +148,16 @@
     margin-bottom: 5px
 
 figure
-  display: inline-block 
+  display: inline-block
+  +r(960)
+    display: inline-flex
+    width: 23%
+    margin-right: 5PX
 .photo-gallery__photos
   +r(960)
     display: flex
-    justify-content: space-evenly
+    flex-wrap: wrap
+    align-items: baseline
     margin-bottom: 50px
 
 

@@ -1,5 +1,7 @@
-import '../../node_modules/fancybox/dist/js/jquery.fancybox.js';
-import '../../node_modules/fancybox/dist/helpers/js/jquery.fancybox-buttons.js';
+import fancybox1 from '../../node_modules/fancybox/dist/js/jquery.fancybox.cjs.js';
+fancybox1();
+import fancyboxbuttons from '../../node_modules/fancybox/dist/helpers/js/jquery.fancybox-buttons.cjs';
+fancyboxbuttons();
 $(document).ready(function() {
   $('.fancybox-button').fancybox({
     prevEffect		: 'none',
