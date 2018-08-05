@@ -1,7 +1,7 @@
 import $ from 'jquery';
-import fancybox from '../../node_modules/fancybox/dist/js/jquery.fancybox.cjs.js';
+import fancybox from 'fancybox';
 fancybox();
-import fancyboxbuttons from '../../node_modules/fancybox/dist/helpers/js/jquery.fancybox-buttons.cjs.js';
+import fancyboxbuttons from './_jquery.fancybox-buttons.cjs';
 fancyboxbuttons();
 $(window).ready(function() {
   $('.fancybox-button').fancybox({
